@@ -207,7 +207,8 @@ html {
 }
 
 .buy {
-    height: 656px;
+    height: 606px;
+    padding: 0 145px 50px;
 }
 
 .contacts {
@@ -218,7 +219,7 @@ html {
 .copyright {
     text-align: center;
     color: #445162;
-    font-size: 16px;
+    font-size: 13px;
     font-weight: 400;
     line-height: 30px;
     background-color: #f5f5f5;
@@ -243,7 +244,7 @@ html {
     line-height: 24px;
     margin-bottom: 21px;
     padding-left: 10px;
-    border-radius: 7px;
+    border-radius: 5px;
     outline: none;
     border-style: none;
 }
@@ -265,7 +266,7 @@ html {
     margin-bottom: 21px;
     padding-left: 10px;
     resize: none;
-    border-radius: 7px;
+    border-radius: 5px;
     outline: none;
     border-style: none;
 }
@@ -273,10 +274,80 @@ html {
 .contactsButton {
     width: 140px;
     height: 40px;
-    border-radius: 7px;
+    border-radius: 5px;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
     text-transform: uppercase;
     color: #445162;
+}
+
+.standart {
+    height: 306px;
+    margin-right: 40px;
+}
+
+.buyVariant {
+    width: 300px;
+    background-color: #445162;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.offer {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 400;
+    padding-top: 11px;
+    padding-bottom: 8px;
+}
+
+.cost {
+    width: 296px;
+height: 71px;
+border: 2px solid #445162;
+    background-color: #fff;
+}
+
+.cost-h3 {
+    color: #445162;
+    font-size: 40px;
+    font-weight: 400;
+    padding-top: 12px;
+}
+
+.buy-ol {
+    padding-top: 16px;
+    padding-left: 40px;
+    padding-bottom: 16px;
+    text-align: left;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.buyButton {
+    display: inline-block;
+    text-decoration: none;
+    width: 260px;
+    height: 40px;
+    background: #ffffff;
+    border-radius: 5px;
+    color: #445161;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 40px;
+    text-transform: uppercase;
+}
+
+.premium {
+    height: 404px;
+    margin-right: 40px;
+}
+
+.lux {
+    height: 499px;
 }

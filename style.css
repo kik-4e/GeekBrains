@@ -1,3 +1,21 @@
+@font-face {
+    font-family: socialico;
+    src: url('fonts/Socialico.eot');
+    src: url('fonts/Socialico.eot?#iefix') format('embedded-opentype'),
+    url('fonts/Socialico.ttf')
+    format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Socialico-Plus;
+    src: url('fonts/Socialico Plus.eot');
+    src: url('fonts/Socialico Plus.eot?#iefix') format('embedded-opentype'),
+    url('fonts/Socialico Plus.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 * {
     margin: 0;
     padding: 0;
@@ -254,6 +272,8 @@ html {
     width: 500px;
     text-align: center;
     border-style: hidden;
+    float: left;
+    margin-right: 30px;
 }
 
 .contactsTextarea {
@@ -280,6 +300,8 @@ html {
     line-height: 24px;
     text-transform: uppercase;
     color: #445162;
+    outline: 0;
+    border: 0;
 }
 
 .standart {
@@ -350,4 +372,33 @@ border: 2px solid #445162;
 
 .lux {
     height: 499px;
+}
+.contacts-ul {
+    padding-top: 3px;
+    list-style-type: none;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+}
+.contactsList {
+    padding-bottom: 20px;
+}
+.contactsIco {
+    float: left;
+    list-style-type: none;
+    padding-right: 4px;
+}
+.contactsIcoLink {
+    padding-bottom: 13px;
+}
+
+.socialLink {
+    text-decoration: none;
+}
+
+.social {
+    color: #ffffff;
+    font-style: normal;
+    font-size: 60px;
 }
